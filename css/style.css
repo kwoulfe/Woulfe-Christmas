@@ -55,10 +55,10 @@ a:focus {
     margin-bottom: 25px;
   }
 h3 {
-    font-size: 2rem
+    font-size: 1.75rem
   }
 p {
-    font-size: 1.5rem
+    font-size: 1.25rem
   }
 }
 
@@ -67,10 +67,11 @@ p {
     /* padding-top: 15px; */
     margin-bottom: 15px;
   }
-  /* h3 {
-    font-size: .75rem
-  } */
+  h3 {
+    font-size: 1.5rem
+  }
   p {
     line-height: 1;
+    font-size: 1.15rem;
     }
   }
