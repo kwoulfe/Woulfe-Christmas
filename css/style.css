@@ -35,7 +35,11 @@ body.leah {
 h3 {
   font-size: 3rem;
   text-align: center;
-}  
+}
+
+h4 {
+  font-size: 2.5rem;
+}
 
 p, h1, h2, h3, h4, h5 {
   font-weight: bold;
@@ -106,6 +110,9 @@ a.black-link:focus {
 h3 {
     font-size: 1.75rem
   }
+h4 {
+    font-size: 1.5rem;
+}
 p {
     font-size: 1.25rem;
     margin-bottom: .75rem;
@@ -122,6 +129,9 @@ p {
   }
   h3 {
     font-size: 1.5rem
+  }
+  h4 {
+    font-size: 1.25rem;
   }
   p {
     line-height: 1;
