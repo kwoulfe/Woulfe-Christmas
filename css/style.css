@@ -1,18 +1,45 @@
 html, body {
-    margin: 0;
-    height: 100%;
-    background-image: url('images/background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-    font-family: 'Annie Use Your Telescope', cursive;
-
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  font-family: 'Annie Use Your Telescope', cursive;
   }
+
+body.index {
+  background-image: url('images/background.jpg');
+  color: white;
+}
+
+body.sloane {
+  background-image: url('images/background-sloane.jpg');
+  color: black;
+}
+
+body.miles {
+  background-image: url('images/background-miles.jpg');
+  color: white;
+}
+
+body.kevin {
+  background-image: url('images/background-kevin.jpg');
+  color: white;
+}
+
+body.leah {
+  background-image: url('images/background-leah.jpg');
+  color: black;
+}
 
 h3 {
   font-size: 3rem;
+  text-align: center;
 }  
+
+p, h1, h2, h3, h4, h5 {
+  font-weight: bold;
+}
 
 p {
   font-size: 1.75rem;
@@ -22,11 +49,23 @@ p a {
   color: white;
 }
 
+.black-link {
+  color: black;
+}
+
 a:hover,
 a:active,
 a:visited,
 a:focus {
   color: white;
+  /* text-decoration: none; */
+}
+
+a.black-link:hover,
+a.black-link:active,
+a.black-link:visited,
+a.black-link:focus {
+  color: black;
   /* text-decoration: none; */
 }
 
@@ -44,8 +83,14 @@ a:focus {
 .header {
     padding-top: 50px;
   }
-  body {
+  body.index {
     background-image: url('images/background-mobile.jpg');
+  }
+  body.sloane {
+    background-image: url('images/background-sloane-mobile.jpg');
+  }
+  body.kevin {
+    background-image: url('images/background-kevin-mobile.jpg');
   }
 }
 
@@ -60,6 +105,9 @@ h3 {
 p {
     font-size: 1.25rem;
     margin-bottom: .75rem;
+  }
+  body.miles {
+    background-image: url('images/background-miles-mobile.jpg');
   }
 }
 
