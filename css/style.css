@@ -87,9 +87,9 @@ a.black-link:focus {
 .header {
     padding-top: 50px;
   }
-  body.index {
+  /* body.index {
     background-image: url('images/background-mobile.jpg');
-  }
+  } */
   body.sloane {
     background-image: url('images/background-sloane-mobile.jpg');
   }
