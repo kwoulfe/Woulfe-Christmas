@@ -45,7 +45,7 @@ p {
   font-size: 1.75rem;
 }
 
-p a {
+a, p a {
   color: white;
 }
 
