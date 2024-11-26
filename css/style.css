@@ -45,7 +45,11 @@ p {
   font-size: 1.75rem;
 }
 
-a, p a {
+a {
+  color: white;
+}
+
+p a {
   color: white;
 }
 
